@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Ardiansyah - Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="#home" class="logo">Ardiansyah</a>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#skills">Skill</a>
+        <a href="#projects">Project</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Buka menu">☰</button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-text">
+          <p class="subtitle">Halo, saya</p>
+          <h1>Muhammad Ardiansyah</h1>
+          <p class="role">Web Developer</p>
+          <p class="description">
+            Berfokus membangun website modern, cepat, dan responsive menggunakan
+            <strong>JavaScript</strong>, <strong>Laravel</strong>, dan
+            <strong>Vue.js</strong>.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Lihat Project</a>
+            <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            class="profile-photo"
+            src="C:/Users/asus/.cursor/projects/c-Portofolio/assets/c__Users_asus_AppData_Roaming_Cursor_User_workspaceStorage_aac87d43dc535db5de25eb0675a81430_images_12309832-1d4b1b18-b975-4649-9dbc-9f23c7b448b7.png"
+            alt="Foto Muhammad Ardiansyah"
+          />
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <h2>Tentang Saya</h2>
+        <p>
+          Saya adalah Web Developer yang senang membuat aplikasi web dari front-end
+          sampai back-end. Saya terbiasa mengembangkan REST API dengan Laravel dan
+          membuat tampilan interaktif dengan Vue.js dan JavaScript.
+        </p>
+      </section>
+
+      <section class="skills" id="skills">
+        <h2>Skill Utama</h2>
+        <div class="skill-grid">
+          <article class="skill-card">
+            <h3>JavaScript</h3>
+            <p>Membangun fitur interaktif, manipulasi DOM, dan integrasi API.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Laravel</h3>
+            <p>Pengembangan backend, authentication, REST API, dan database.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Vue.js</h3>
+            <p>Komponen UI reaktif, SPA sederhana, dan state management.</p>
+          </article>
+          <article class="skill-card">
+            <h3>HTML & CSS</h3>
+            <p>Layout rapi, responsive design, dan tampilan modern.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- <section class="projects" id="projects">
+        <h2>Project Pilihan</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Website Company Profile</h3>
+            <p>
+              Landing page modern untuk perusahaan dengan desain responsive dan
+              optimasi performa.
+            </p>
+          </article>
+          <article class="project-card">
+            <h3>Aplikasi Manajemen Tugas</h3>
+            <p>
+              Aplikasi CRUD dengan Laravel API dan Vue.js sebagai frontend.
+            </p>
+          </article>
+          <article class="project-card">
+            <h3>Sistem Absensi Online</h3>
+            <p>
+              Platform absensi berbasis web dengan autentikasi pengguna dan laporan
+              harian.
+            </p>
+          </article>
+        </div>
+      </section> -->
+
+      <section class="contact" id="contact">
+        <h2>Kontak</h2>
+        <p>Tertarik bekerja sama? Kirim pesan melalui kontak berikut.</p>
+        <div class="contact-list">
+          <a href="mailto:bagolardi9@gmail.com">bagolardi9@gmail.com</a>
+          <a href="https://github.com/Ardiansyah9832" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Web Developer Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
